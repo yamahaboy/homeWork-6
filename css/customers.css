@@ -119,7 +119,7 @@
     line-height: 21px;
 }
 
-.customers-info-block:first-child .block-text{
+.customers-info-block:nth-child(1) .block-text{
     width: 100%;
     height: 150px;
     background-color: #E2E2E2;
@@ -127,7 +127,7 @@
     border-radius: 10px;
 }
 
-.block-text:first-child::after {
+.block-text:nth-child(1)::after {
     content: "";
     position: absolute;
     bottom: 170px; 
